@@ -1,0 +1,320 @@
+/* RESET CSS */
+* {
+    /* emmet */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* header */
+.header-fluid {
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+.navbar-brand img {
+    height: 50px;
+    width: 50px;
+}
+
+.navbar-toggler-icon {
+    background-color: #333;
+}
+
+.navbar-nav {
+    margin-top: 10px;
+}
+
+.navbar-nav .nav-item {
+    text-align: center;
+}
+
+.nav-item.dropdown:hover>.dropdown-menu {
+    display: block;
+    margin: 0;
+}
+
+.nav-item.changcoler:hover>.nav-link.active {
+    color: rgb(255, 80, 4);
+}
+
+.fa-solid.fa-circle-question {
+    margin-right: 5px;
+}
+
+.vertical-line {
+    margin-top: 16px;
+    width: 1px;
+    height: 10px;
+    background-color: #ccc;
+}
+
+.space-mr {
+    margin-right: -5px;
+}
+
+.space-ml {
+    margin-left: -5px;
+}
+
+.dangky-ml {
+    margin-left: -15px;
+}
+
+.login-btn {
+    background-color: rgb(255, 80, 4);
+    color: #fff;
+}
+
+.login-btn:hover {
+    opacity: 0.8;
+}
+
+/* main */
+
+/* slider */
+.carousel {
+    padding-top: 70px;
+}
+.carousel-item {
+    max-height: 600px;
+}
+.container-center {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*input */
+.containerinput {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    width: 80%;
+    /* Điều chỉnh chiều rộng theo mong muốn */
+    padding: 20px;
+    background-color: #f8f9fa;
+    /* Màu nền của thẻ chứa */
+    border-radius: 10px;
+    /* Đổ bóng */
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    /* Đổ bóng */
+    background-color: #fff;
+}
+
+::placeholder {
+    font-size: 25px;
+}
+
+.btn.btn-tracking {
+    font-size: 25px;
+}
+
+.form-control {
+    background-color: rgb(229, 229, 229) !important;
+    height: 65px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-tracking {
+    background-color: rgb(255, 80, 4);
+    color: #fff;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+.btn-tracking:hover {
+    opacity: 0.8;
+}
+
+/* Service */
+.Service {
+    margin-top: 120px;
+}
+
+h1.mb-5 {
+    text-align: center;
+}
+
+.contentPickupService {
+    display: flex;
+}
+
+.PickupService-describe {
+    margin-top: 50px;
+    flex: 1;
+}
+
+.PickupService-more {
+    text-decoration: none !important;
+    color: rgb(255, 80, 4) !important;
+    font-size: 20px;
+}
+
+/* Đổi màu chữ khi hover */
+.PickupService-img,
+.PickupService-img>img {
+    max-height: 285px;
+    max-width: 360px;
+    flex: 2;
+}
+
+.contentCashService {
+    display: flex;
+}
+
+.CashService-describe {
+    margin-top: 50px;
+    flex: 1;
+}
+
+.CashService-more {
+    text-decoration: none !important;
+    /* Xóa bỏ gạch chân */
+    color: rgb(255, 80, 4) !important;
+    /* Sử dụng màu chữ mặc định */
+    font-size: 20px;
+}
+
+/* Đổi màu chữ khi hover */
+.CashService-img,
+.CashService-img>img {
+    max-height: 285px;
+    max-width: 360px;
+    flex: 2;
+}
+
+/* BusinessPartner */
+/* Style for BusinessPartner container */
+.BusinessPartner {
+    text-align: center;
+}
+
+/* Style for the heading */
+.BusinessPartner h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Style for the image list */
+.BusinessPartnerrow {
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.BusinessPartnerimg {
+    margin: 10px;
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.BusinessPartnerimg:hover {
+    transform: scale(1.1);
+}
+
+.BusinessPartnerimg>img {
+    height: 100%;
+    width: 100%;
+}
+
+/*  */
+.center-align {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.service-description {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.service-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-item {
+    text-align: center;
+    margin: 20px;
+}
+
+.icon {
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    margin: 0 auto 20px;
+}
+
+.service-item h3 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/* Startedspx */
+.Startedspx {
+    background-color: rgb(255, 80, 4);
+}
+
+.Startedspx>h1 {
+    font-size: 50px;
+    color: #fff;
+}
+
+.btn.btn-Startedspx {
+    background-color: #fff;
+    color: rgb(255, 80, 4);
+    font-size: 20px;
+}
+
+.btn-Startedspx:hover {
+    opacity: 0.9;
+}
+
+/* footer */
+#footer {
+    background-color: #ffffff;
+    /* Màu nền trắng */
+    padding: 20px 0;
+    font-family: 'Somewhere', sans-serif;
+}
+
+.footer-text {
+    color: #333;
+    /* Màu chữ */
+    font-size: 14px;
+}
+
+/* Thiết lập phần chia cột trong footer */
+.footer-column {
+    margin-bottom: 20px;
+}
+
+/* Các biểu tượng mạng xã hội */
+.social-icons a {
+    font-size: 20px;
+    color: #333;
+    margin-right: 10px;
+}
+
+/* Căn giữa văn bản phần cuối footer */
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
